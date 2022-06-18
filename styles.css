@@ -482,6 +482,8 @@ top: 10%; left: 10%; right: 10%;bottom: 10%;
 opacity: 0;
 z-index:1;
 transition: 0.5s;
+color:#00FFFF ;
+text-shadow: 1px 1px 1px #08202f
 }
 
 .event-card:hover{
