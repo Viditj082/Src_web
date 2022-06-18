@@ -526,6 +526,9 @@ transition: 1s;
 width: 200px;
 height: 300px;
 }
+.event-card-front>h3{
+    font-weight: 800;
+}
 .event-card-front>.img{
 width: 150px;
 height:150px;
