@@ -151,6 +151,17 @@ background-color: #589F9F80;
 }
 
 @media (max-width:640px) {
+    .intro-content>span>a{
+        text-decoration: none;
+        color: white;
+        background-color: #589F9F;
+        padding:0.8rem;
+        transition: 0.2s; 
+        }
+        
+        .intro-content>span>a:hover{
+        background-color: #589F9F80;
+        }
     #intro>*{
         margin: 0 auto;
     }
