@@ -138,7 +138,7 @@ font-size: 1.3rem;
 line-height: 3rem;
 }
 
-.intro-content>a{
+.intro-content>span>a{
 text-decoration: none;
 color: white;
 background-color: #589F9F;
@@ -146,13 +146,18 @@ padding:0.8rem;
 transition: 0.2s; 
 }
 
-.intro-content>a:hover{
+.intro-content>span>a:hover{
 background-color: #589F9F80;
 }
 
 @media (max-width:640px) {
+    #intro>*{
+        margin: 0 auto;
+    }
+    
 
 #intro{
+    text-align: center;
 grid-template-areas: " img img "
                      "con con ";
 margin-bottom: 20px;
